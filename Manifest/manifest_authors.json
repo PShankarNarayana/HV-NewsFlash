@@ -5,18 +5,18 @@
   "id": "1c07cd26-a088-4db8-8928-ace382fa219f",
   "packageName": "com.microsoft.teams.companycommunicator.authors",
   "developer": {
-    "name": "<<companyName>>",
-    "websiteUrl": "<<websiteUrl>>",
-    "privacyUrl": "<<privacyUrl>>",
-    "termsOfUseUrl": "<<termsOfUseUrl>>"
+    "name": "Hitachi Vantara",
+    "websiteUrl": "https://connect.hitachivantara.com",
+    "privacyUrl": "https://www.hitachivantara.com/en-us/company/legal.privacy.html",
+    "termsOfUseUrl": "https://hitachivantara.sharepoint.com/SitePages/Terms-of-Use.aspx"
   },
   "icons": {
     "color": "color.png",
     "outline": "outline.png"
   },
   "name": {
-    "short": "Company Communicator (Authors)",
-    "full": "Company Communicator (Authors)"
+    "short": "HV News Flash",
+    "full": "HV News Flash (Authors)"
   },
   "description": {
     "short": "Broadcast messages to multiple teams and people in one go",
@@ -24,14 +24,14 @@
   },
   "accentColor": "#64A2CC",
   "configurableTabs": [{
-    "configurationUrl": "https://<<appDomain>>/configtab",
+    "configurationUrl": "https://hitachivnewsflash.azurefd.net/configtab",
     "canUpdateConfiguration": true,
     "scopes": [
       "team"
     ]
   }],
   "bots": [{
-    "botId": "<<botId>>",
+    "botId": "ed26d585-9215-44d9-83f4-848a02187d83",
     "scopes": [
       "team"
     ],
@@ -43,10 +43,10 @@
     "messageTeamMembers"
   ],
   "validDomains": [
-    "<<appDomain>>"
+    "hitachivnewsflash.azurefd.net>"
   ],
   "webApplicationInfo": {
-    "id": "<<botId>>",
-    "resource": "api://<<appDomain>>"
+    "id": "ed26d585-9215-44d9-83f4-848a02187d83",
+    "resource": "api://hitachivnewsflash.azurefd.net"
   }
 }
